@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "rootDir": ".",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "removeComments": false,
+
+
+    "allowJs": true,
+    "checkJs": false,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+
+    "strict": false,
+    "jsx": "react",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "declaration": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ]
+  //  "references": [
+  //    {
+  //      "path": "./tsconfig.node.json"
+  //    }
+  //  ]
+}

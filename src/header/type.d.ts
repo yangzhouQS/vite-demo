@@ -1,0 +1,10 @@
+import { BaseHeader } from "./type/BaseHeader";
+import type { BaseHeaderDefine } from "../list-grid/layout-map/api";
+import { CheckHeader } from "./type/CheckHeader";
+import { Header } from "./type/Header";
+import type { HeaderTypeOption } from "../ts-types";
+import { MultilineTextHeader } from "./type/MultilineTextHeader";
+import { SortHeader } from "./type/SortHeader";
+export { BaseHeader, Header, SortHeader, CheckHeader, MultilineTextHeader };
+export declare function of<T>(headerType: HeaderTypeOption | BaseHeader<T> | null | undefined): BaseHeader<T>;
+export declare function ofCell<T>(headerCell: BaseHeaderDefine<T>): BaseHeader<T>;

@@ -1,0 +1,11 @@
+export declare function get(name?: string): "$$$$private symbol$$$$";
+export declare function getProtectedSymbol(): "$$$$protected symbol$$$$";
+export declare function getCheckColumnStateId(): "$$$$chkcol.stateID symbol$$$$";
+export declare function getRadioColumnStateId(): "$$$$rdcol.stateID symbol$$$$";
+export declare function getButtonColumnStateId(): "$$$$btncol.stateID symbol$$$$";
+export declare function getColumnFadeinStateId(): "$$$$col.fadein_stateID symbol$$$$";
+export declare function getBranchGraphColumnStateId(): "$$$$branch_graph_col.stateID symbol$$$$";
+export declare function getSmallDialogInputEditorStateId(): "$$$$small_dialog_input_editor.stateID symbol$$$$";
+export declare function getInlineInputEditorStateId(): "$$$$inline_input_editor.stateID symbol$$$$";
+export declare function getInlineMenuEditorStateId(): "$$$$inline_menu_editor.stateID symbol$$$$";
+export declare function getCheckHeaderStateId(): "$$$$check_header.stateID symbol$$$$";
